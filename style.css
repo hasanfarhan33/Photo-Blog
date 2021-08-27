@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lobster", cursive;
+}
+
+nav {
+  font-size: 2rem;
+  margin: 20px 0px 20px 20px;
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 10px;
+  width: 20%;
+}
+
+img {
+  width: 30%;
+  height: auto;
+  margin: 20px;
+}
+
+.coloredImage {
+  filter: grayscale();
+}
